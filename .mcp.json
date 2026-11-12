@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "roxy": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "roxy-video",
+        "mcp"
+      ]
+    }
+  }
+}

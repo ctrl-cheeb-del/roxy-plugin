@@ -1,0 +1,7 @@
+interface:
+  display_name: "roxy"
+  short_description: "Edit video on a remote machine, from your agent"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#FF62AD"
+  default_prompt: "Use $roxy to edit this video."

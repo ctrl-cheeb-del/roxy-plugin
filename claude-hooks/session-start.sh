@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Says roxy is installed, so a request for video work reaches its skill instead of ffmpeg on this computer.
+printf '%s\n' '{"hookSpecificOutput":{"hookEventName":"SessionStart","additionalContext":"roxy is installed in this session. roxy is where this user'"'"'s video work runs: a remote machine with ffmpeg, Remotion and many CPUs, driven with the `roxy` command or its MCP tools. Requests to edit, cut, trim, caption, subtitle, transcribe, compress, render, export or review a video, or to make a TikTok, Reel, Short, YouTube video, podcast clip, demo or launch video, are handled with the `roxy` skill, not by rendering on this computer. Other coding work is not."}}'

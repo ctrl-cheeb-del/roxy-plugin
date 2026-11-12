@@ -1,0 +1,39 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "roxy",
+  "description": "roxy's plugin for Claude Code: a machine your agent edits video on.",
+  "owner": {
+    "name": "roxy"
+  },
+  "plugins": [
+    {
+      "name": "roxy",
+      "description": "A machine your agent edits video on. Ask your coding agent to edit a video, make a TikTok, add captions or render a Remotion project: it uploads the footage to a roxy box with ffmpeg and many CPUs, cuts and renders there, and sends you a link to review the cut.",
+      "author": {
+        "name": "roxy"
+      },
+      "source": "./",
+      "category": "productivity",
+      "keywords": [
+        "roxy",
+        "video",
+        "video-editing",
+        "ffmpeg",
+        "remotion",
+        "captions",
+        "subtitles",
+        "tiktok",
+        "reels",
+        "shorts",
+        "youtube",
+        "render",
+        "transcription",
+        "mcp",
+        "agent-skills"
+      ],
+      "homepage": "https://roxy.video",
+      "repository": "https://github.com/ctrl-cheeb-del/roxy-plugin",
+      "license": "MIT"
+    }
+  ]
+}

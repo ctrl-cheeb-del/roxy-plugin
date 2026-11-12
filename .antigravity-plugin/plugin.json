@@ -1,0 +1,23 @@
+{
+  "name": "roxy",
+  "version": "1.0.0",
+  "description": "A machine your agent edits video on. Ask your coding agent to edit a video, make a TikTok, add captions or render a Remotion project: it uploads the footage to a roxy box with ffmpeg and many CPUs, cuts and renders there, and sends you a link to review the cut.",
+  "author": {
+    "name": "roxy",
+    "url": "https://roxy.video"
+  },
+  "homepage": "https://roxy.video",
+  "repository": "https://github.com/ctrl-cheeb-del/roxy-plugin",
+  "license": "MIT",
+  "displayName": "roxy",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Edit the video in ./footage into a first cut.",
+    "Make three TikToks out of this podcast episode."
+  ],
+  "category": "Productivity",
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./mcp_config.json"
+}

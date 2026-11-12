@@ -1,0 +1,33 @@
+{
+  "name": "roxy",
+  "version": "1.0.0",
+  "description": "A machine your agent edits video on. Ask your coding agent to edit a video, make a TikTok, add captions or render a Remotion project: it uploads the footage to a roxy box with ffmpeg and many CPUs, cuts and renders there, and sends you a link to review the cut.",
+  "author": {
+    "name": "roxy",
+    "url": "https://roxy.video"
+  },
+  "homepage": "https://roxy.video",
+  "repository": "https://github.com/ctrl-cheeb-del/roxy-plugin",
+  "license": "MIT",
+  "displayName": "roxy",
+  "keywords": [
+    "roxy",
+    "video",
+    "video-editing",
+    "ffmpeg",
+    "remotion",
+    "captions",
+    "subtitles",
+    "tiktok",
+    "reels",
+    "shorts",
+    "youtube",
+    "render",
+    "transcription",
+    "mcp",
+    "agent-skills"
+  ],
+  "hooks": "./claude-hooks/hooks.json",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://roxy.video/agent.md"
+}
